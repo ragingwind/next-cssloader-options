@@ -2,6 +2,12 @@
 
 > Next plugin to update css loader options until `cssOptions` will be supported officially.
 
+# Install
+
+```sh
+npm install next-cssloader-options
+```
+
 # Usese
 
 ```js
