@@ -1,0 +1,19 @@
+{
+  "name": "next-cssloader-options",
+  "version": "1.0.0",
+  "description": "Next plugin for manuplating css loader options",
+  "author": "Jimmy Moon",
+  "main": "index.js",
+  "keywords": [
+    "next",
+    "next.js",
+    "plugins",
+    "css",
+    "css-loader",
+    "css-modules"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "merge-options": "^3.0.4"
+  }
+}
