@@ -20,11 +20,11 @@ function findCssLoader(nextConfig) {
 module.exports = (nextConfig = {}) => ({
   ...nextConfig,
   webpack(config, options) {
-    const { cssLoaderOptions } = options.config;
+    const { cssOptions } = options.config;
     const cssLoader = findCssLoader(config);
 
-    if (cssLoader && cssLoaderOptions) {
-      cssLoader.options = mergeOptions(cssLoader.options, cssLoaderOptions);
+    if (cssLoader && cssOptions) {
+      cssLoader.options = mergeOptions(cssLoader.options, cssOptions);
     }
 
     return config;

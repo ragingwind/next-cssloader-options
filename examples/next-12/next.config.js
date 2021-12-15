@@ -1,7 +1,7 @@
 const withCssLoaderOptions = require('../../');
 
 module.exports = withCssLoaderOptions({
-  cssLoaderOptions: {
+  cssOptions: {
     modules: {
       getLocalIdent: (context, localIdentName, localName, options) => localName
     }

@@ -14,7 +14,7 @@ npm install next-cssloader-options
 const withCssLoaderOptions = require('next-cssloader-options');
 
 module.exports = withCssLoaderOptions({
-  cssLoaderOptions: {
+  cssOptions: {
     modules: {
       getLocalIdent: (context, localIdentName, localName, options) => localName
     }
